@@ -11,14 +11,10 @@ class DynamoDb
 
   def update(id:, column:, value:)
     client.update_item({
-      table_name: @table_name,
-      key: {
-        id: "#{id}",
-      },
-      update_expression: "SET #{column} = :val",
-      expression_attribute_values: {
-        ':val' => value,
-      }
+      table_name: @table_name
+      key: {Id: "#{id}"}
+      update_expression: "SET #{column} = :val"
+      expression_attribute_values: {':val' => value}
     })
   end
 
