@@ -14,7 +14,7 @@ module Crawler
         @post_content = post_content
       end
     
-      attr_reader :start_url, :desired_arrival_amount, :post_content, :driver
+      attr_reader :start_url, :desired_arrival_amount, :post_content
     
       def item_in_stock_by_target_sellers?
         puts "start_url: #{start_url}"
@@ -48,16 +48,11 @@ module Crawler
 
       def driver
         @driver ||= begin
-          # ヘッドレスモードでの実行の場合以下コメントイン
           options = Selenium::WebDriver::Chrome::Options.new
-          options.add_argument('--headless')
+          options.add_argument('--headless') # ヘッドレスモードでの実行の場合コメントイン
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 10 # 10秒待っても読み込まれない場合は、エラーが発生する
           end
-          # 非ヘッドレスモードでの実行の場合は以下コメントイン
-          # Selenium::WebDriver.for(:chrome).tap do |driver|
-          #   driver.manage.timeouts.implicit_wait = 10 # 10秒待っても読み込まれない場合は、エラーが発生する
-          # end
         end
       end
     
