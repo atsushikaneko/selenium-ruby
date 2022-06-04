@@ -836,3 +836,28 @@ E, [2022-06-04T10:11:04.207426 #51112] ERROR -- : ["/Users/atsushi/.rbenv/versio
 E, [2022-06-04T10:11:57.353254 #51259] ERROR -- : NameError
 E, [2022-06-04T10:11:57.353414 #51259] ERROR -- : undefined local variable or method `dynamo_db' for main:Object
 E, [2022-06-04T10:11:57.353451 #51259] ERROR -- : ["crawler/amazon/scenario.rb:128:in `block in main'", "crawler/amazon/scenario.rb:124:in `each'", "crawler/amazon/scenario.rb:124:in `main'", "crawler/amazon/scenario.rb:145:in `<main>'"]
+E, [2022-06-04T10:55:28.399304 #54302] ERROR -- : TypeError
+E, [2022-06-04T10:55:28.402605 #54302] ERROR -- : can't convert Range into time interval
+E, [2022-06-04T10:55:28.402726 #54302] ERROR -- : ["crawler/amazon/scenario.rb:117:in `sleep'", "crawler/amazon/scenario.rb:117:in `block in main'", "crawler/amazon/scenario.rb:112:in `each'", "crawler/amazon/scenario.rb:112:in `main'", "crawler/amazon/scenario.rb:133:in `<main>'"]
+E, [2022-06-04T11:14:01.453338 #56101] ERROR -- : NameError
+E, [2022-06-04T11:14:01.455239 #56101] ERROR -- : uninitialized constant Parallel
+E, [2022-06-04T11:14:01.455903 #56101] ERROR -- : ["scripts/check_amazon_script.rb:25:in `main'", "scripts/check_amazon_script.rb:64:in `<main>'"]
+E, [2022-06-04T11:14:13.528808 #56171] ERROR -- : NameError
+E, [2022-06-04T11:14:13.529021 #56171] ERROR -- : uninitialized constant Crawler
+E, [2022-06-04T11:14:13.529080 #56171] ERROR -- : ["scripts/check_amazon_script.rb:29:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T11:15:33.579297 #56272] ERROR -- : NameError
+E, [2022-06-04T11:15:33.579404 #56272] ERROR -- : uninitialized constant TweetService
+Did you mean?  TWEET_INTERVAL
+E, [2022-06-04T11:15:33.579432 #56272] ERROR -- : ["scripts/check_amazon_script.rb:41:in `main'", "scripts/check_amazon_script.rb:67:in `<main>'"]
+E, [2022-06-04T11:33:37.285956 #58010] ERROR -- : NameError
+E, [2022-06-04T11:33:37.287734 #58010] ERROR -- : undefined local variable or method `aa' for #<CheckAmazonScript:0x00007f852b2593d0>
+E, [2022-06-04T11:33:37.287939 #58010] ERROR -- : scripts/check_amazon_script.rb:39:in `block in execute'
+scripts/check_amazon_script.rb:36:in `each'
+scripts/check_amazon_script.rb:36:in `execute'
+scripts/check_amazon_script.rb:76:in `<main>'
+E, [2022-06-04T11:35:34.481101 #58180] ERROR -- : NameError
+E, [2022-06-04T11:35:34.482453 #58180] ERROR -- : undefined local variable or method `aa' for #<CheckAmazonScript:0x00007ff835cbbc60>
+E, [2022-06-04T11:35:34.482654 #58180] ERROR -- : scripts/check_amazon_script.rb:37:in `block in execute'
+scripts/check_amazon_script.rb:34:in `each'
+scripts/check_amazon_script.rb:34:in `execute'
+scripts/check_amazon_script.rb:68:in `<main>'
