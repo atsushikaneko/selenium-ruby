@@ -59,7 +59,7 @@ class CheckAmazonScript
   end
 
   def dynamo_db
-    dynamo_db ||= DynamoDb.new(TABLE_NAME)
+    @dynamo_db ||= DynamoDb.new(TABLE_NAME)
   end
 
   def twitter_api
