@@ -14,8 +14,25 @@ require 'aws-sdk-dynamodb'
 # puts client.scan(table_name: "amazon_item_list").to_a
 
 class DynamoDb
+  def initialize(table_name)
+    @table_name = table_name
+  end
+
   def all
-    client.scan(table_name: "amazon_item_list")["items"].to_a
+    client.scan(table_name: @table_name)["items"].to_a
+  end
+
+  def update(id:, column:, value:)
+    client.update_item({
+      table_name: @table_name,
+      key: {
+        id: "#{id}",
+      },
+      update_expression: "SET #{column} = :val",
+      expression_attribute_values: {
+        ':val' => value,
+      }
+    })
   end
 
   private

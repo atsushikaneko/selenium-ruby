@@ -1,0 +1,838 @@
+# Logfile created on 2022-06-02 21:38:46 +0900 by logger.rb/v1.4.2
+E, [2022-06-02T21:38:53.742163 #91424] ERROR -- : NoMethodError
+E, [2022-06-02T21:38:53.742838 #91424] ERROR -- : undefined method `text' for #<Array:0x00007fd6fa5135f0>
+E, [2022-06-02T21:39:40.193987 #91554] ERROR -- : NoMethodError
+E, [2022-06-02T21:39:40.194172 #91554] ERROR -- : undefined method `text' for #<Array:0x00007fd18dc0a830>
+E, [2022-06-02T21:40:09.261337 #91677] ERROR -- : NoMethodError
+E, [2022-06-02T21:40:09.261445 #91677] ERROR -- : undefined method `quit' for nil:NilClass
+E, [2022-06-02T21:47:15.135488 #92056] ERROR -- : NoMethodError
+E, [2022-06-02T21:47:15.135596 #92056] ERROR -- : undefined method `quit' for nil:NilClass
+E, [2022-06-02T21:47:15.135620 #92056] ERROR -- : ["scraper.rb:62:in `ensure in item_is_tweetable?'", "scraper.rb:62:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-02T21:47:31.385287 #92124] ERROR -- : NoMethodError
+E, [2022-06-02T21:47:31.385391 #92124] ERROR -- : undefined method `quit' for nil:NilClass
+E, [2022-06-02T21:47:31.385414 #92124] ERROR -- : ["scraper.rb:62:in `ensure in item_is_tweetable?'", "scraper.rb:62:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-02T21:48:03.167130 #92184] ERROR -- : NoMethodError
+E, [2022-06-02T21:48:03.167228 #92184] ERROR -- : undefined method `quit' for nil:NilClass
+E, [2022-06-02T21:48:03.167249 #92184] ERROR -- : ["scraper.rb:62:in `ensure in item_is_tweetable?'", "scraper.rb:62:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T08:24:09.582801 #98358] ERROR -- : NoMethodError
+E, [2022-06-03T08:24:09.583358 #98358] ERROR -- : undefined method `quit' for nil:NilClass
+E, [2022-06-03T08:24:09.583412 #98358] ERROR -- : ["scraper.rb:62:in `ensure in item_is_tweetable?'", "scraper.rb:62:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T08:24:53.807024 #98423] ERROR -- : NoMethodError
+E, [2022-06-03T08:24:53.807274 #98423] ERROR -- : undefined method `text' for #<Array:0x00007f91cc416be8>
+E, [2022-06-03T08:24:53.807338 #98423] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T08:25:23.746244 #98517] ERROR -- : NoMethodError
+E, [2022-06-03T08:25:23.746459 #98517] ERROR -- : undefined method `text' for "A":String
+E, [2022-06-03T08:25:23.746522 #98517] ERROR -- : ["scraper.rb:45:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:33:44.325223 #27566] ERROR -- : NoMethodError
+E, [2022-06-03T20:33:44.327558 #27566] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:33:44.327672 #27566] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:35:34.501773 #27829] ERROR -- : NoMethodError
+E, [2022-06-03T20:35:34.501921 #27829] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:35:34.501958 #27829] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:104:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:35:43.202252 #27898] ERROR -- : TypeError
+E, [2022-06-03T20:35:43.202344 #27898] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:35:43.202368 #27898] ERROR -- : ["scraper.rb:100:in `[]'", "scraper.rb:100:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:44:10.358142 #28247] ERROR -- : TypeError
+E, [2022-06-03T20:44:10.360229 #28247] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:44:10.360319 #28247] ERROR -- : ["scraper.rb:100:in `[]'", "scraper.rb:100:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:44:32.514150 #28284] ERROR -- : NameError
+E, [2022-06-03T20:44:32.514395 #28284] ERROR -- : undefined local variable or method `row' for main:Object
+Did you mean?  rows
+E, [2022-06-03T20:44:32.514464 #28284] ERROR -- : ["scraper.rb:98:in `main'", "scraper.rb:128:in `<main>'"]
+E, [2022-06-03T20:44:44.584875 #28320] ERROR -- : NameError
+E, [2022-06-03T20:44:44.585038 #28320] ERROR -- : undefined local variable or method `row' for main:Object
+Did you mean?  rows
+E, [2022-06-03T20:44:44.585077 #28320] ERROR -- : ["scraper.rb:98:in `main'", "scraper.rb:128:in `<main>'"]
+E, [2022-06-03T20:44:53.821673 #28348] ERROR -- : TypeError
+E, [2022-06-03T20:44:53.821806 #28348] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:44:53.821847 #28348] ERROR -- : ["scraper.rb:102:in `[]'", "scraper.rb:102:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:45:09.271040 #28417] ERROR -- : TypeError
+E, [2022-06-03T20:45:09.272295 #28417] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:45:09.272375 #28417] ERROR -- : ["scraper.rb:100:in `[]'", "scraper.rb:100:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:46:17.265481 #28503] ERROR -- : TypeError
+E, [2022-06-03T20:46:17.266717 #28503] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:46:17.266804 #28503] ERROR -- : ["scraper.rb:101:in `[]'", "scraper.rb:101:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:46:35.223774 #28545] ERROR -- : TypeError
+E, [2022-06-03T20:46:35.223905 #28545] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:46:35.223943 #28545] ERROR -- : ["scraper.rb:101:in `[]'", "scraper.rb:101:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:46:57.198888 #28584] ERROR -- : TypeError
+E, [2022-06-03T20:46:57.199020 #28584] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:46:57.199066 #28584] ERROR -- : ["scraper.rb:101:in `[]'", "scraper.rb:101:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:47:25.209368 #28651] ERROR -- : TypeError
+E, [2022-06-03T20:47:25.209519 #28651] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:47:25.209557 #28651] ERROR -- : ["scraper.rb:101:in `[]'", "scraper.rb:101:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:47:56.535978 #28694] ERROR -- : TypeError
+E, [2022-06-03T20:47:56.537182 #28694] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:47:56.537259 #28694] ERROR -- : ["scraper.rb:101:in `[]'", "scraper.rb:101:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:48:22.155154 #28767] ERROR -- : TypeError
+E, [2022-06-03T20:48:22.155289 #28767] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-03T20:48:22.155328 #28767] ERROR -- : ["scraper.rb:102:in `[]'", "scraper.rb:102:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:48:50.722251 #28817] ERROR -- : NoMethodError
+E, [2022-06-03T20:48:50.722539 #28817] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:48:50.722642 #28817] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:106:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:49:34.070333 #28940] ERROR -- : NoMethodError
+E, [2022-06-03T20:49:34.070619 #28940] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:49:34.070703 #28940] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:107:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:49:53.757305 #28999] ERROR -- : NoMethodError
+E, [2022-06-03T20:49:53.757588 #28999] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:49:53.757677 #28999] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:105:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T20:52:05.647137 #29144] ERROR -- : NoMethodError
+E, [2022-06-03T20:52:05.647433 #29144] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T20:52:05.647538 #29144] ERROR -- : ["scraper.rb:40:in `item_is_tweetable?'", "scraper.rb:105:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:00:02.769202 #29502] ERROR -- : NoMethodError
+E, [2022-06-03T21:00:02.771912 #29502] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:00:02.772045 #29502] ERROR -- : ["scraper.rb:41:in `item_is_tweetable?'", "scraper.rb:106:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:00:27.537126 #29583] ERROR -- : NoMethodError
+E, [2022-06-03T21:00:27.537405 #29583] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:00:27.537488 #29583] ERROR -- : ["scraper.rb:42:in `item_is_tweetable?'", "scraper.rb:107:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:00:59.221454 #29635] ERROR -- : NoMethodError
+E, [2022-06-03T21:00:59.221559 #29635] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:00:59.221580 #29635] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:01:46.773107 #29719] ERROR -- : NoMethodError
+E, [2022-06-03T21:01:46.773300 #29719] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:01:46.773357 #29719] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:01:58.238696 #29770] ERROR -- : NoMethodError
+E, [2022-06-03T21:01:58.238983 #29770] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:01:58.239069 #29770] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:02:26.954296 #29900] ERROR -- : NoMethodError
+E, [2022-06-03T21:02:26.954851 #29900] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:02:26.954903 #29900] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:02:37.429641 #29943] ERROR -- : NoMethodError
+E, [2022-06-03T21:02:37.430003 #29943] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:02:37.430109 #29943] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:11:02.323280 #30334] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:11:02.325477 #30334] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61)
+E, [2022-06-03T21:11:02.325595 #30334] ERROR -- : ["0   chromedriver                        0x000000010ef302c9 chromedriver + 5120713", "1   chromedriver                        0x000000010eebee33 chromedriver + 4656691", "2   chromedriver                        0x000000010eaae158 chromedriver + 393560", "3   chromedriver                        0x000000010eae2edd chromedriver + 610013", "4   chromedriver                        0x000000010eae3161 chromedriver + 610657", "5   chromedriver                        0x000000010eb15244 chromedriver + 815684", "6   chromedriver                        0x000000010eb004ad chromedriver + 730285", "7   chromedriver                        0x000000010eb12f41 chromedriver + 806721", "8   chromedriver                        0x000000010eb00373 chromedriver + 729971", "9   chromedriver                        0x000000010ead6609 chromedriver + 558601", "10  chromedriver                        0x000000010ead7635 chromedriver + 562741", "11  chromedriver                        0x000000010ef02b1d chromedriver + 4934429", "12  chromedriver                        0x000000010ef07295 chromedriver + 4952725", "13  chromedriver                        0x000000010ef0c3cf chromedriver + 4973519", "14  chromedriver                        0x000000010ef07cba chromedriver + 4955322", "15  chromedriver                        0x000000010eee237c chromedriver + 4801404", "16  chromedriver                        0x000000010ef21c68 chromedriver + 5061736", "17  chromedriver                        0x000000010ef21def chromedriver + 5062127", "18  chromedriver                        0x000000010ef375e5 chromedriver + 5150181", "19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224", "20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'", "scraper.rb:41:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:17:45.860505 #30628] ERROR -- : NoMethodError
+E, [2022-06-03T21:17:45.862911 #30628] ERROR -- : undefined method `text' for nil:NilClass
+E, [2022-06-03T21:17:45.863028 #30628] ERROR -- : ["scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:108:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:20:11.489223 #30837] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:20:11.489334 #30837] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61)
+E, [2022-06-03T21:20:11.489362 #30837] ERROR -- : ["0   chromedriver                        0x00000001009a42c9 chromedriver + 5120713", "1   chromedriver                        0x0000000100932e33 chromedriver + 4656691", "2   chromedriver                        0x0000000100522158 chromedriver + 393560", "3   chromedriver                        0x0000000100556edd chromedriver + 610013", "4   chromedriver                        0x0000000100557161 chromedriver + 610657", "5   chromedriver                        0x0000000100589244 chromedriver + 815684", "6   chromedriver                        0x00000001005744ad chromedriver + 730285", "7   chromedriver                        0x0000000100586f41 chromedriver + 806721", "8   chromedriver                        0x0000000100574373 chromedriver + 729971", "9   chromedriver                        0x000000010054a609 chromedriver + 558601", "10  chromedriver                        0x000000010054b635 chromedriver + 562741", "11  chromedriver                        0x0000000100976b1d chromedriver + 4934429", "12  chromedriver                        0x000000010097b295 chromedriver + 4952725", "13  chromedriver                        0x00000001009803cf chromedriver + 4973519", "14  chromedriver                        0x000000010097bcba chromedriver + 4955322", "15  chromedriver                        0x000000010095637c chromedriver + 4801404", "16  chromedriver                        0x0000000100995c68 chromedriver + 5061736", "17  chromedriver                        0x0000000100995def chromedriver + 5062127", "18  chromedriver                        0x00000001009ab5e5 chromedriver + 5150181", "19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224", "20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'", "scraper.rb:43:in `item_is_tweetable?'", "scraper.rb:110:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:20:47.399475 #30894] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001097532c9 chromedriver + 5120713
+1   chromedriver                        0x00000001096e1e33 chromedriver + 4656691
+2   chromedriver                        0x00000001092d1158 chromedriver + 393560
+3   chromedriver                        0x0000000109305edd chromedriver + 610013
+4   chromedriver                        0x0000000109306161 chromedriver + 610657
+5   chromedriver                        0x0000000109338244 chromedriver + 815684
+6   chromedriver                        0x00000001093234ad chromedriver + 730285
+7   chromedriver                        0x0000000109335f41 chromedriver + 806721
+8   chromedriver                        0x0000000109323373 chromedriver + 729971
+9   chromedriver                        0x00000001092f9609 chromedriver + 558601
+10  chromedriver                        0x00000001092fa635 chromedriver + 562741
+11  chromedriver                        0x0000000109725b1d chromedriver + 4934429
+12  chromedriver                        0x000000010972a295 chromedriver + 4952725
+13  chromedriver                        0x000000010972f3cf chromedriver + 4973519
+14  chromedriver                        0x000000010972acba chromedriver + 4955322
+15  chromedriver                        0x000000010970537c chromedriver + 4801404
+16  chromedriver                        0x0000000109744c68 chromedriver + 5061736
+17  chromedriver                        0x0000000109744def chromedriver + 5062127
+18  chromedriver                        0x000000010975a5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:43:in `item_is_tweetable?'
+scraper.rb:110:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:21:23.488887 #30984] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x0000000104ad12c9 chromedriver + 5120713
+1   chromedriver                        0x0000000104a5fe33 chromedriver + 4656691
+2   chromedriver                        0x000000010464f158 chromedriver + 393560
+3   chromedriver                        0x0000000104683edd chromedriver + 610013
+4   chromedriver                        0x0000000104684161 chromedriver + 610657
+5   chromedriver                        0x00000001046b6244 chromedriver + 815684
+6   chromedriver                        0x00000001046a14ad chromedriver + 730285
+7   chromedriver                        0x00000001046b3f41 chromedriver + 806721
+8   chromedriver                        0x00000001046a1373 chromedriver + 729971
+9   chromedriver                        0x0000000104677609 chromedriver + 558601
+10  chromedriver                        0x0000000104678635 chromedriver + 562741
+11  chromedriver                        0x0000000104aa3b1d chromedriver + 4934429
+12  chromedriver                        0x0000000104aa8295 chromedriver + 4952725
+13  chromedriver                        0x0000000104aad3cf chromedriver + 4973519
+14  chromedriver                        0x0000000104aa8cba chromedriver + 4955322
+15  chromedriver                        0x0000000104a8337c chromedriver + 4801404
+16  chromedriver                        0x0000000104ac2c68 chromedriver + 5061736
+17  chromedriver                        0x0000000104ac2def chromedriver + 5062127
+18  chromedriver                        0x0000000104ad85e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:111:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:21:48.288595 #31030] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x000000010bea12c9 chromedriver + 5120713
+1   chromedriver                        0x000000010be2fe33 chromedriver + 4656691
+2   chromedriver                        0x000000010ba1f158 chromedriver + 393560
+3   chromedriver                        0x000000010ba53edd chromedriver + 610013
+4   chromedriver                        0x000000010ba54161 chromedriver + 610657
+5   chromedriver                        0x000000010ba86244 chromedriver + 815684
+6   chromedriver                        0x000000010ba714ad chromedriver + 730285
+7   chromedriver                        0x000000010ba83f41 chromedriver + 806721
+8   chromedriver                        0x000000010ba71373 chromedriver + 729971
+9   chromedriver                        0x000000010ba47609 chromedriver + 558601
+10  chromedriver                        0x000000010ba48635 chromedriver + 562741
+11  chromedriver                        0x000000010be73b1d chromedriver + 4934429
+12  chromedriver                        0x000000010be78295 chromedriver + 4952725
+13  chromedriver                        0x000000010be7d3cf chromedriver + 4973519
+14  chromedriver                        0x000000010be78cba chromedriver + 4955322
+15  chromedriver                        0x000000010be5337c chromedriver + 4801404
+16  chromedriver                        0x000000010be92c68 chromedriver + 5061736
+17  chromedriver                        0x000000010be92def chromedriver + 5062127
+18  chromedriver                        0x000000010bea85e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:111:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:21:48.475370 #31030] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:21:48.475562 #31030] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:21:48.475642 #31030] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:68:in `ensure in item_is_tweetable?'", "scraper.rb:68:in `item_is_tweetable?'", "scraper.rb:112:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:22:16.218092 #31111] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x000000010ceb52c9 chromedriver + 5120713
+1   chromedriver                        0x000000010ce43e33 chromedriver + 4656691
+2   chromedriver                        0x000000010ca33158 chromedriver + 393560
+3   chromedriver                        0x000000010ca67edd chromedriver + 610013
+4   chromedriver                        0x000000010ca68161 chromedriver + 610657
+5   chromedriver                        0x000000010ca9a244 chromedriver + 815684
+6   chromedriver                        0x000000010ca854ad chromedriver + 730285
+7   chromedriver                        0x000000010ca97f41 chromedriver + 806721
+8   chromedriver                        0x000000010ca85373 chromedriver + 729971
+9   chromedriver                        0x000000010ca5b609 chromedriver + 558601
+10  chromedriver                        0x000000010ca5c635 chromedriver + 562741
+11  chromedriver                        0x000000010ce87b1d chromedriver + 4934429
+12  chromedriver                        0x000000010ce8c295 chromedriver + 4952725
+13  chromedriver                        0x000000010ce913cf chromedriver + 4973519
+14  chromedriver                        0x000000010ce8ccba chromedriver + 4955322
+15  chromedriver                        0x000000010ce6737c chromedriver + 4801404
+16  chromedriver                        0x000000010cea6c68 chromedriver + 5061736
+17  chromedriver                        0x000000010cea6def chromedriver + 5062127
+18  chromedriver                        0x000000010cebc5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:111:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:22:16.402847 #31111] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:22:16.403000 #31111] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:22:16.403039 #31111] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:68:in `ensure in item_is_tweetable?'", "scraper.rb:68:in `item_is_tweetable?'", "scraper.rb:112:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:25:57.811862 #31297] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x0000000100bfe2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000100b8ce33 chromedriver + 4656691
+2   chromedriver                        0x000000010077c158 chromedriver + 393560
+3   chromedriver                        0x00000001007b0edd chromedriver + 610013
+4   chromedriver                        0x00000001007b1161 chromedriver + 610657
+5   chromedriver                        0x00000001007e3244 chromedriver + 815684
+6   chromedriver                        0x00000001007ce4ad chromedriver + 730285
+7   chromedriver                        0x00000001007e0f41 chromedriver + 806721
+8   chromedriver                        0x00000001007ce373 chromedriver + 729971
+9   chromedriver                        0x00000001007a4609 chromedriver + 558601
+10  chromedriver                        0x00000001007a5635 chromedriver + 562741
+11  chromedriver                        0x0000000100bd0b1d chromedriver + 4934429
+12  chromedriver                        0x0000000100bd5295 chromedriver + 4952725
+13  chromedriver                        0x0000000100bda3cf chromedriver + 4973519
+14  chromedriver                        0x0000000100bd5cba chromedriver + 4955322
+15  chromedriver                        0x0000000100bb037c chromedriver + 4801404
+16  chromedriver                        0x0000000100befc68 chromedriver + 5061736
+17  chromedriver                        0x0000000100befdef chromedriver + 5062127
+18  chromedriver                        0x0000000100c055e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:25:57.817705 #31297] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:25:57.817863 #31297] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:25:57.817903 #31297] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:69:in `item_is_tweetable?'", "scraper.rb:112:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:26:53.984741 #31381] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001082d62c9 chromedriver + 5120713
+1   chromedriver                        0x0000000108264e33 chromedriver + 4656691
+2   chromedriver                        0x0000000107e54158 chromedriver + 393560
+3   chromedriver                        0x0000000107e88edd chromedriver + 610013
+4   chromedriver                        0x0000000107e89161 chromedriver + 610657
+5   chromedriver                        0x0000000107ebb244 chromedriver + 815684
+6   chromedriver                        0x0000000107ea64ad chromedriver + 730285
+7   chromedriver                        0x0000000107eb8f41 chromedriver + 806721
+8   chromedriver                        0x0000000107ea6373 chromedriver + 729971
+9   chromedriver                        0x0000000107e7c609 chromedriver + 558601
+10  chromedriver                        0x0000000107e7d635 chromedriver + 562741
+11  chromedriver                        0x00000001082a8b1d chromedriver + 4934429
+12  chromedriver                        0x00000001082ad295 chromedriver + 4952725
+13  chromedriver                        0x00000001082b23cf chromedriver + 4973519
+14  chromedriver                        0x00000001082adcba chromedriver + 4955322
+15  chromedriver                        0x000000010828837c chromedriver + 4801404
+16  chromedriver                        0x00000001082c7c68 chromedriver + 5061736
+17  chromedriver                        0x00000001082c7def chromedriver + 5062127
+18  chromedriver                        0x00000001082dd5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:111:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:26:55.605151 #31381] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001082d62c9 chromedriver + 5120713
+1   chromedriver                        0x0000000108264e33 chromedriver + 4656691
+2   chromedriver                        0x0000000107e54158 chromedriver + 393560
+3   chromedriver                        0x0000000107e88edd chromedriver + 610013
+4   chromedriver                        0x0000000107e89161 chromedriver + 610657
+5   chromedriver                        0x0000000107ebb244 chromedriver + 815684
+6   chromedriver                        0x0000000107ea64ad chromedriver + 730285
+7   chromedriver                        0x0000000107eb8f41 chromedriver + 806721
+8   chromedriver                        0x0000000107ea6373 chromedriver + 729971
+9   chromedriver                        0x0000000107e7c609 chromedriver + 558601
+10  chromedriver                        0x0000000107e7d635 chromedriver + 562741
+11  chromedriver                        0x00000001082a8b1d chromedriver + 4934429
+12  chromedriver                        0x00000001082ad295 chromedriver + 4952725
+13  chromedriver                        0x00000001082b23cf chromedriver + 4973519
+14  chromedriver                        0x00000001082adcba chromedriver + 4955322
+15  chromedriver                        0x000000010828837c chromedriver + 4801404
+16  chromedriver                        0x00000001082c7c68 chromedriver + 5061736
+17  chromedriver                        0x00000001082c7def chromedriver + 5062127
+18  chromedriver                        0x00000001082dd5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:28:31.104367 #31505] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x000000010c1a82c9 chromedriver + 5120713
+1   chromedriver                        0x000000010c136e33 chromedriver + 4656691
+2   chromedriver                        0x000000010bd26158 chromedriver + 393560
+3   chromedriver                        0x000000010bd5aedd chromedriver + 610013
+4   chromedriver                        0x000000010bd5b161 chromedriver + 610657
+5   chromedriver                        0x000000010bd8d244 chromedriver + 815684
+6   chromedriver                        0x000000010bd784ad chromedriver + 730285
+7   chromedriver                        0x000000010bd8af41 chromedriver + 806721
+8   chromedriver                        0x000000010bd78373 chromedriver + 729971
+9   chromedriver                        0x000000010bd4e609 chromedriver + 558601
+10  chromedriver                        0x000000010bd4f635 chromedriver + 562741
+11  chromedriver                        0x000000010c17ab1d chromedriver + 4934429
+12  chromedriver                        0x000000010c17f295 chromedriver + 4952725
+13  chromedriver                        0x000000010c1843cf chromedriver + 4973519
+14  chromedriver                        0x000000010c17fcba chromedriver + 4955322
+15  chromedriver                        0x000000010c15a37c chromedriver + 4801404
+16  chromedriver                        0x000000010c199c68 chromedriver + 5061736
+17  chromedriver                        0x000000010c199def chromedriver + 5062127
+18  chromedriver                        0x000000010c1af5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:28:31.300073 #31505] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:28:31.300213 #31505] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:28:31.300264 #31505] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:69:in `ensure in item_is_tweetable?'", "scraper.rb:69:in `item_is_tweetable?'", "scraper.rb:113:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:28:43.100858 #31565] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x0000000108a762c9 chromedriver + 5120713
+1   chromedriver                        0x0000000108a04e33 chromedriver + 4656691
+2   chromedriver                        0x00000001085f4158 chromedriver + 393560
+3   chromedriver                        0x0000000108628edd chromedriver + 610013
+4   chromedriver                        0x0000000108629161 chromedriver + 610657
+5   chromedriver                        0x000000010865b244 chromedriver + 815684
+6   chromedriver                        0x00000001086464ad chromedriver + 730285
+7   chromedriver                        0x0000000108658f41 chromedriver + 806721
+8   chromedriver                        0x0000000108646373 chromedriver + 729971
+9   chromedriver                        0x000000010861c609 chromedriver + 558601
+10  chromedriver                        0x000000010861d635 chromedriver + 562741
+11  chromedriver                        0x0000000108a48b1d chromedriver + 4934429
+12  chromedriver                        0x0000000108a4d295 chromedriver + 4952725
+13  chromedriver                        0x0000000108a523cf chromedriver + 4973519
+14  chromedriver                        0x0000000108a4dcba chromedriver + 4955322
+15  chromedriver                        0x0000000108a2837c chromedriver + 4801404
+16  chromedriver                        0x0000000108a67c68 chromedriver + 5061736
+17  chromedriver                        0x0000000108a67def chromedriver + 5062127
+18  chromedriver                        0x0000000108a7d5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:28:45.409024 #31565] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x0000000108a762c9 chromedriver + 5120713
+1   chromedriver                        0x0000000108a04e33 chromedriver + 4656691
+2   chromedriver                        0x00000001085f4158 chromedriver + 393560
+3   chromedriver                        0x0000000108628edd chromedriver + 610013
+4   chromedriver                        0x0000000108629161 chromedriver + 610657
+5   chromedriver                        0x000000010865b244 chromedriver + 815684
+6   chromedriver                        0x00000001086464ad chromedriver + 730285
+7   chromedriver                        0x0000000108658f41 chromedriver + 806721
+8   chromedriver                        0x0000000108646373 chromedriver + 729971
+9   chromedriver                        0x000000010861c609 chromedriver + 558601
+10  chromedriver                        0x000000010861d635 chromedriver + 562741
+11  chromedriver                        0x0000000108a48b1d chromedriver + 4934429
+12  chromedriver                        0x0000000108a4d295 chromedriver + 4952725
+13  chromedriver                        0x0000000108a523cf chromedriver + 4973519
+14  chromedriver                        0x0000000108a4dcba chromedriver + 4955322
+15  chromedriver                        0x0000000108a2837c chromedriver + 4801404
+16  chromedriver                        0x0000000108a67c68 chromedriver + 5061736
+17  chromedriver                        0x0000000108a67def chromedriver + 5062127
+18  chromedriver                        0x0000000108a7d5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:113:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:38:27.234451 #31972] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001047ab2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000104739e33 chromedriver + 4656691
+2   chromedriver                        0x0000000104329158 chromedriver + 393560
+3   chromedriver                        0x000000010435dedd chromedriver + 610013
+4   chromedriver                        0x000000010435e161 chromedriver + 610657
+5   chromedriver                        0x0000000104390244 chromedriver + 815684
+6   chromedriver                        0x000000010437b4ad chromedriver + 730285
+7   chromedriver                        0x000000010438df41 chromedriver + 806721
+8   chromedriver                        0x000000010437b373 chromedriver + 729971
+9   chromedriver                        0x0000000104351609 chromedriver + 558601
+10  chromedriver                        0x0000000104352635 chromedriver + 562741
+11  chromedriver                        0x000000010477db1d chromedriver + 4934429
+12  chromedriver                        0x0000000104782295 chromedriver + 4952725
+13  chromedriver                        0x00000001047873cf chromedriver + 4973519
+14  chromedriver                        0x0000000104782cba chromedriver + 4955322
+15  chromedriver                        0x000000010475d37c chromedriver + 4801404
+16  chromedriver                        0x000000010479cc68 chromedriver + 5061736
+17  chromedriver                        0x000000010479cdef chromedriver + 5062127
+18  chromedriver                        0x00000001047b25e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:38:29.683101 #31972] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001047ab2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000104739e33 chromedriver + 4656691
+2   chromedriver                        0x0000000104329158 chromedriver + 393560
+3   chromedriver                        0x000000010435dedd chromedriver + 610013
+4   chromedriver                        0x000000010435e161 chromedriver + 610657
+5   chromedriver                        0x0000000104390244 chromedriver + 815684
+6   chromedriver                        0x000000010437b4ad chromedriver + 730285
+7   chromedriver                        0x000000010438df41 chromedriver + 806721
+8   chromedriver                        0x000000010437b373 chromedriver + 729971
+9   chromedriver                        0x0000000104351609 chromedriver + 558601
+10  chromedriver                        0x0000000104352635 chromedriver + 562741
+11  chromedriver                        0x000000010477db1d chromedriver + 4934429
+12  chromedriver                        0x0000000104782295 chromedriver + 4952725
+13  chromedriver                        0x00000001047873cf chromedriver + 4973519
+14  chromedriver                        0x0000000104782cba chromedriver + 4955322
+15  chromedriver                        0x000000010475d37c chromedriver + 4801404
+16  chromedriver                        0x000000010479cc68 chromedriver + 5061736
+17  chromedriver                        0x000000010479cdef chromedriver + 5062127
+18  chromedriver                        0x00000001047b25e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:113:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:38:41.733633 #32026] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x000000010848b2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000108419e33 chromedriver + 4656691
+2   chromedriver                        0x0000000108009158 chromedriver + 393560
+3   chromedriver                        0x000000010803dedd chromedriver + 610013
+4   chromedriver                        0x000000010803e161 chromedriver + 610657
+5   chromedriver                        0x0000000108070244 chromedriver + 815684
+6   chromedriver                        0x000000010805b4ad chromedriver + 730285
+7   chromedriver                        0x000000010806df41 chromedriver + 806721
+8   chromedriver                        0x000000010805b373 chromedriver + 729971
+9   chromedriver                        0x0000000108031609 chromedriver + 558601
+10  chromedriver                        0x0000000108032635 chromedriver + 562741
+11  chromedriver                        0x000000010845db1d chromedriver + 4934429
+12  chromedriver                        0x0000000108462295 chromedriver + 4952725
+13  chromedriver                        0x00000001084673cf chromedriver + 4973519
+14  chromedriver                        0x0000000108462cba chromedriver + 4955322
+15  chromedriver                        0x000000010843d37c chromedriver + 4801404
+16  chromedriver                        0x000000010847cc68 chromedriver + 5061736
+17  chromedriver                        0x000000010847cdef chromedriver + 5062127
+18  chromedriver                        0x00000001084925e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:112:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:38:41.919250 #32026] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:38:41.919400 #32026] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:38:41.919449 #32026] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:69:in `ensure in item_is_tweetable?'", "scraper.rb:69:in `item_is_tweetable?'", "scraper.rb:113:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:40:49.686830 #32155] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: headless chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x000000010daf92c9 chromedriver + 5120713
+1   chromedriver                        0x000000010da87e33 chromedriver + 4656691
+2   chromedriver                        0x000000010d677158 chromedriver + 393560
+3   chromedriver                        0x000000010d6abedd chromedriver + 610013
+4   chromedriver                        0x000000010d6ac161 chromedriver + 610657
+5   chromedriver                        0x000000010d6de244 chromedriver + 815684
+6   chromedriver                        0x000000010d6c94ad chromedriver + 730285
+7   chromedriver                        0x000000010d6dbf41 chromedriver + 806721
+8   chromedriver                        0x000000010d6c9373 chromedriver + 729971
+9   chromedriver                        0x000000010d69f609 chromedriver + 558601
+10  chromedriver                        0x000000010d6a0635 chromedriver + 562741
+11  chromedriver                        0x000000010dacbb1d chromedriver + 4934429
+12  chromedriver                        0x000000010dad0295 chromedriver + 4952725
+13  chromedriver                        0x000000010dad53cf chromedriver + 4973519
+14  chromedriver                        0x000000010dad0cba chromedriver + 4955322
+15  chromedriver                        0x000000010daab37c chromedriver + 4801404
+16  chromedriver                        0x000000010daeac68 chromedriver + 5061736
+17  chromedriver                        0x000000010daeadef chromedriver + 5062127
+18  chromedriver                        0x000000010db005e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:113:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:40:49.881752 #32155] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:40:49.881913 #32155] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:40:49.881963 #32155] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:70:in `ensure in item_is_tweetable?'", "scraper.rb:70:in `item_is_tweetable?'", "scraper.rb:114:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:43:47.922203 #32628] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x0000000100e7e2c9 chromedriver + 5120713
+1   chromedriver                        0x0000000100e0ce33 chromedriver + 4656691
+2   chromedriver                        0x00000001009fc158 chromedriver + 393560
+3   chromedriver                        0x0000000100a30edd chromedriver + 610013
+4   chromedriver                        0x0000000100a31161 chromedriver + 610657
+5   chromedriver                        0x0000000100a63244 chromedriver + 815684
+6   chromedriver                        0x0000000100a4e4ad chromedriver + 730285
+7   chromedriver                        0x0000000100a60f41 chromedriver + 806721
+8   chromedriver                        0x0000000100a4e373 chromedriver + 729971
+9   chromedriver                        0x0000000100a24609 chromedriver + 558601
+10  chromedriver                        0x0000000100a25635 chromedriver + 562741
+11  chromedriver                        0x0000000100e50b1d chromedriver + 4934429
+12  chromedriver                        0x0000000100e55295 chromedriver + 4952725
+13  chromedriver                        0x0000000100e5a3cf chromedriver + 4973519
+14  chromedriver                        0x0000000100e55cba chromedriver + 4955322
+15  chromedriver                        0x0000000100e3037c chromedriver + 4801404
+16  chromedriver                        0x0000000100e6fc68 chromedriver + 5061736
+17  chromedriver                        0x0000000100e6fdef chromedriver + 5062127
+18  chromedriver                        0x0000000100e855e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:113:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:43:48.146122 #32628] ERROR -- : Errno::ECONNREFUSED
+E, [2022-06-03T21:43:48.146249 #32628] ERROR -- : Failed to open TCP connection to 127.0.0.1:9515 (Connection refused - connect(2) for "127.0.0.1" port 9515)
+E, [2022-06-03T21:43:48.146305 #32628] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `open'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:960:in `block in connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:95:in `block in timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/timeout.rb:105:in `timeout'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:958:in `connect'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:943:in `do_start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:932:in `start'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/net/http.rb:1483:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:124:in `response_for'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:77:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:188:in `quit'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/driver.rb:181:in `quit'", "scraper.rb:70:in `ensure in item_is_tweetable?'", "scraper.rb:70:in `item_is_tweetable?'", "scraper.rb:114:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:44:15.292745 #32707] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001056262c9 chromedriver + 5120713
+1   chromedriver                        0x00000001055b4e33 chromedriver + 4656691
+2   chromedriver                        0x00000001051a4158 chromedriver + 393560
+3   chromedriver                        0x00000001051d8edd chromedriver + 610013
+4   chromedriver                        0x00000001051d9161 chromedriver + 610657
+5   chromedriver                        0x000000010520b244 chromedriver + 815684
+6   chromedriver                        0x00000001051f64ad chromedriver + 730285
+7   chromedriver                        0x0000000105208f41 chromedriver + 806721
+8   chromedriver                        0x00000001051f6373 chromedriver + 729971
+9   chromedriver                        0x00000001051cc609 chromedriver + 558601
+10  chromedriver                        0x00000001051cd635 chromedriver + 562741
+11  chromedriver                        0x00000001055f8b1d chromedriver + 4934429
+12  chromedriver                        0x00000001055fd295 chromedriver + 4952725
+13  chromedriver                        0x00000001056023cf chromedriver + 4973519
+14  chromedriver                        0x00000001055fdcba chromedriver + 4955322
+15  chromedriver                        0x00000001055d837c chromedriver + 4801404
+16  chromedriver                        0x0000000105617c68 chromedriver + 5061736
+17  chromedriver                        0x0000000105617def chromedriver + 5062127
+18  chromedriver                        0x000000010562d5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:113:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:44:27.201523 #32707] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tabular-buybox"]/div[1]/div[4]/div/span/a"}
+  (Session info: chrome=102.0.5005.61) (Selenium::WebDriver::Error::NoSuchElementError)
+0   chromedriver                        0x00000001056262c9 chromedriver + 5120713
+1   chromedriver                        0x00000001055b4e33 chromedriver + 4656691
+2   chromedriver                        0x00000001051a4158 chromedriver + 393560
+3   chromedriver                        0x00000001051d8edd chromedriver + 610013
+4   chromedriver                        0x00000001051d9161 chromedriver + 610657
+5   chromedriver                        0x000000010520b244 chromedriver + 815684
+6   chromedriver                        0x00000001051f64ad chromedriver + 730285
+7   chromedriver                        0x0000000105208f41 chromedriver + 806721
+8   chromedriver                        0x00000001051f6373 chromedriver + 729971
+9   chromedriver                        0x00000001051cc609 chromedriver + 558601
+10  chromedriver                        0x00000001051cd635 chromedriver + 562741
+11  chromedriver                        0x00000001055f8b1d chromedriver + 4934429
+12  chromedriver                        0x00000001055fd295 chromedriver + 4952725
+13  chromedriver                        0x00000001056023cf chromedriver + 4973519
+14  chromedriver                        0x00000001055fdcba chromedriver + 4955322
+15  chromedriver                        0x00000001055d837c chromedriver + 4801404
+16  chromedriver                        0x0000000105617c68 chromedriver + 5061736
+17  chromedriver                        0x0000000105617def chromedriver + 5062127
+18  chromedriver                        0x000000010562d5e5 chromedriver + 5150181
+19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224
+20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'
+scraper.rb:41:in `item_is_tweetable?'
+scraper.rb:114:in `block in main'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'
+/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'
+E, [2022-06-03T21:46:17.866444 #32887] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:46:29.862413 #32887] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:47:45.145965 #33009] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:48:11.622812 #33072] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:49:18.540055 #33212] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:49:18.545552 #33212] ERROR -- : NameError
+E, [2022-06-03T21:49:18.545694 #33212] ERROR -- : uninitialized constant Crawler::Rails
+E, [2022-06-03T21:49:18.545733 #33212] ERROR -- : ["scraper.rb:69:in `ensure in item_is_tweetable?'", "scraper.rb:69:in `item_is_tweetable?'", "scraper.rb:113:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-03T21:50:51.718294 #33341] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:55:41.998451 #33645] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:56:19.821636 #33715] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:58:02.147756 #33847] ERROR -- : Selenium::WebDriver::Error::NoSuchElementError
+E, [2022-06-03T21:58:02.148039 #33847] ERROR -- : no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="corePrice_desktop"]/div/table/tbody/tr[2]/td[2]/span[1]/span[1] | //*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[1]"}
+  (Session info: chrome=102.0.5005.61)
+E, [2022-06-03T21:58:02.148105 #33847] ERROR -- : ["0   chromedriver                        0x000000010a7f12c9 chromedriver + 5120713", "1   chromedriver                        0x000000010a77fe33 chromedriver + 4656691", "2   chromedriver                        0x000000010a36f158 chromedriver + 393560", "3   chromedriver                        0x000000010a3a3edd chromedriver + 610013", "4   chromedriver                        0x000000010a3a4161 chromedriver + 610657", "5   chromedriver                        0x000000010a3d6244 chromedriver + 815684", "6   chromedriver                        0x000000010a3c14ad chromedriver + 730285", "7   chromedriver                        0x000000010a3d3f41 chromedriver + 806721", "8   chromedriver                        0x000000010a3c1373 chromedriver + 729971", "9   chromedriver                        0x000000010a397609 chromedriver + 558601", "10  chromedriver                        0x000000010a398635 chromedriver + 562741", "11  chromedriver                        0x000000010a7c3b1d chromedriver + 4934429", "12  chromedriver                        0x000000010a7c8295 chromedriver + 4952725", "13  chromedriver                        0x000000010a7cd3cf chromedriver + 4973519", "14  chromedriver                        0x000000010a7c8cba chromedriver + 4955322", "15  chromedriver                        0x000000010a7a337c chromedriver + 4801404", "16  chromedriver                        0x000000010a7e2c68 chromedriver + 5061736", "17  chromedriver                        0x000000010a7e2def chromedriver + 5062127", "18  chromedriver                        0x000000010a7f85e5 chromedriver + 5150181", "19  libsystem_pthread.dylib             0x00007fff203c38fc _pthread_start + 224", "20  libsystem_pthread.dylib             0x00007fff203bf443 thread_start + 15", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:56:in `assert_ok'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/response.rb:35:in `initialize'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `new'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:83:in `create_response'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/default.rb:109:in `request'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:588:in `execute'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/remote/bridge.rb:538:in `find_element_by'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/selenium-webdriver-4.1.0/lib/selenium/webdriver/common/search_context.rb:63:in `find_element'", "scraper.rb:58:in `item_is_tweetable?'", "scraper.rb:113:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T07:07:15.892157 #40179] ERROR -- : TypeError
+E, [2022-06-04T07:07:15.894573 #40179] ERROR -- : no implicit conversion of String into Integer
+E, [2022-06-04T07:07:15.894657 #40179] ERROR -- : ["scraper.rb:109:in `[]'", "scraper.rb:109:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T08:06:16.643328 #43305] ERROR -- : NoMethodError
+E, [2022-06-04T08:06:16.645639 #43305] ERROR -- : undefined method `new' for Crawler:Module
+E, [2022-06-04T08:06:16.645753 #43305] ERROR -- : ["crawler/amazon/scenario.rb:105:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T08:06:37.819616 #43339] ERROR -- : NameError
+E, [2022-06-04T08:06:37.819778 #43339] ERROR -- : uninitialized constant Crawler::Amazon::Scenario
+Did you mean?  Crawler::Amazon::Scenairo
+E, [2022-06-04T08:06:37.819819 #43339] ERROR -- : ["crawler/amazon/scenario.rb:105:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T08:07:17.291958 #43409] ERROR -- : NameError
+E, [2022-06-04T08:07:17.292145 #43409] ERROR -- : uninitialized constant Crawler::Amazon::Scenario
+Did you mean?  Crawler::Amazon::Scenairo
+E, [2022-06-04T08:07:17.292201 #43409] ERROR -- : ["crawler/amazon/scenario.rb:105:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T10:09:05.752958 #50813] ERROR -- : NameError
+E, [2022-06-04T10:09:05.755215 #50813] ERROR -- : undefined local variable or method `target_rows' for main:Object
+E, [2022-06-04T10:09:05.755344 #50813] ERROR -- : ["crawler/amazon/scenario.rb:107:in `block in main'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:587:in `call_with_index'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:378:in `block (2 levels) in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:597:in `with_instrumentation'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:377:in `block in work_in_threads'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/parallel-1.22.1/lib/parallel.rb:222:in `block (4 levels) in in_threads'"]
+E, [2022-06-04T10:09:36.926624 #50945] ERROR -- : NoMethodError
+E, [2022-06-04T10:09:36.926755 #50945] ERROR -- : undefined method `tweetable?' for main:Object
+E, [2022-06-04T10:09:36.926788 #50945] ERROR -- : ["crawler/amazon/scenario.rb:116:in `block in main'", "crawler/amazon/scenario.rb:115:in `each'", "crawler/amazon/scenario.rb:115:in `main'", "crawler/amazon/scenario.rb:136:in `<main>'"]
+E, [2022-06-04T10:11:04.207200 #51112] ERROR -- : TypeError
+E, [2022-06-04T10:11:04.207376 #51112] ERROR -- : no implicit conversion of nil into String
+E, [2022-06-04T10:11:04.207426 #51112] ERROR -- : ["/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/time.rb:372:in `_parse'", "/Users/atsushi/.rbenv/versions/2.7.1/lib/ruby/2.7.0/time.rb:372:in `parse'", "crawler/amazon/scenario.rb:96:in `tweetable?'", "crawler/amazon/scenario.rb:123:in `block in main'", "crawler/amazon/scenario.rb:122:in `each'", "crawler/amazon/scenario.rb:122:in `main'", "crawler/amazon/scenario.rb:143:in `<main>'"]
+E, [2022-06-04T10:11:57.353254 #51259] ERROR -- : NameError
+E, [2022-06-04T10:11:57.353414 #51259] ERROR -- : undefined local variable or method `dynamo_db' for main:Object
+E, [2022-06-04T10:11:57.353451 #51259] ERROR -- : ["crawler/amazon/scenario.rb:128:in `block in main'", "crawler/amazon/scenario.rb:124:in `each'", "crawler/amazon/scenario.rb:124:in `main'", "crawler/amazon/scenario.rb:145:in `<main>'"]
