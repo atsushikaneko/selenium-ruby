@@ -5,14 +5,17 @@ require './crawler/amazon/scenario'
 require './error_utility'
 
 class CheckAmazonScript
+  TABLE_NAME = 'amazon_item_list'.freeze
+  # TWEET_INTERVAL = 1800.freeze # 1800秒
+  TWEET_INTERVAL = 0.freeze # 0秒
+
   def execute
-    dynamo_db = DynamoDb.new('amazon_item_list')
+    overall_start_time = Time.now # 全体時間測定
+
     rows = dynamo_db.all
     # rowsを絞る
-    puts rows = rows[0..2]
-    # puts rows = [rows[0]]
-  
-    whole_start_time = Time.now # 全体時間測定
+    p rows = rows[0..2]
+    # p rows = [rows[0]]
 
     target_rows = []
     Parallel.each(rows, in_threads: 5) do |row|
@@ -29,19 +32,17 @@ class CheckAmazonScript
     end
   
     if target_rows.any?
-    twitter_api  = TwitterApi.new
-  
       target_rows.each do |row|
         if tweetable?(row)
-          puts "ツイートします"
-          # puts row["post_contents"]
+          p "ツイートします"
+          # p row["post_contents"]
           # twitter_api.tweet(row["post_contents"])
           dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
           sleep(rand(20..30))
         end
       end
   
-      p "全体処理概要 #{Time.now - whole_start_time}s" # 時間測定
+      p "全体処理概要 #{Time.now - overall_start_time}s" # 時間測定
     end
   
   rescue => e
@@ -50,13 +51,19 @@ class CheckAmazonScript
 
   private
 
-  # TWEET_INTERVAL = 1800.freeze # 1800秒
-  TWEET_INTERVAL = 0.freeze # 0秒
   def tweetable?(row)
     return true if row["last_tweeted_at"] == nil # last_tweeted_atがnilの場合はツイート可能
 
     last_tweeted_at = Time.parse(row["last_tweeted_at"])
     Time.now > last_tweeted_at + TWEET_INTERVAL
+  end
+
+  def dynamo_db
+    dynamo_db ||= DynamoDb.new(TABLE_NAME)
+  end
+
+  def twitter_api
+    @twitter_api ||= TwitterApi.new
   end
 
   def logger
