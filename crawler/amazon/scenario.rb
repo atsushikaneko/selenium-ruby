@@ -48,13 +48,13 @@ module Crawler
 
       def driver
         @driver ||= begin
-          # ヘッドレスモードの場合以下コメントイン
+          # ヘッドレスモードでの実行の場合以下コメントイン
           options = Selenium::WebDriver::Chrome::Options.new
           options.add_argument('--headless')
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 10 # 10秒待っても読み込まれない場合は、エラーが発生する
           end
-          # ヘッドレスモードじゃない場合は以下コメントイン
+          # 非ヘッドレスモードでの実行の場合は以下コメントイン
           # Selenium::WebDriver.for(:chrome).tap do |driver|
           #   driver.manage.timeouts.implicit_wait = 10 # 10秒待っても読み込まれない場合は、エラーが発生する
           # end
