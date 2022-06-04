@@ -38,7 +38,7 @@ class CheckAmazonScript
           # p row["post_contents"]
           # twitter_api.tweet(row["post_contents"])
           dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
-          sleep(rand(20..30))
+          # sleep(rand(20..30))
         end
       end
   
@@ -59,7 +59,7 @@ class CheckAmazonScript
   end
 
   def dynamo_db
-    dynamo_db ||= DynamoDb.new(TABLE_NAME)
+    @dynamo_db ||= DynamoDb.new(TABLE_NAME)
   end
 
   def twitter_api
