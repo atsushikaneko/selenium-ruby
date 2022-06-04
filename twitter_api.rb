@@ -6,8 +6,6 @@ require 'logger'
 class TwitterApi
   def tweet(post_content)
     client.update(post_content)
-  rescue => e
-    puts e
   end
 
   private
