@@ -51,6 +51,8 @@ module Crawler
         @driver ||= begin
           options = Selenium::WebDriver::Chrome::Options.new
           options.add_argument('--headless') # ヘッドレスモードでの実行の場合コメントイン
+          options.add_argument('--no-sandbox')
+          options.add_argument('--disable-dev-shm-usage')
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 10 # 10秒待っても読み込まれない場合は、エラーが発生する
           end
