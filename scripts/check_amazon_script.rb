@@ -6,8 +6,6 @@ require './error_utility'
 
 class CheckAmazonScript
   TABLE_NAME = 'amazon_item_list'.freeze
-  # TWEET_INTERVAL = 1800.freeze # 1800秒
-  TWEET_INTERVAL = 0.freeze # 0秒
   DEFAULT_TWEET_INTERVAL = 1800.freeze # 0秒
 
   def execute
