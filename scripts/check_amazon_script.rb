@@ -9,12 +9,13 @@ class CheckAmazonScript
   DEFAULT_TWEET_INTERVAL = 1800.freeze # 1800秒(30分)
 
   def execute
+    p "実行開始"
     overall_start_time = Time.now # 全体時間測定
 
     rows = dynamo_db.all
     # rowsを絞る
-    p rows = rows[0..2]
-    # p rows = [rows[0]]
+    p rows = rows[7..9]
+    # p rows = [rows[7]]
 
     target_rows = []
     Parallel.each(rows, in_threads: 5) do |row|
@@ -23,7 +24,7 @@ class CheckAmazonScript
       unless tweetable?(row)
         p "ツイートインターバル内なのでツイートできません"
         p "個別処理概要 #{Time.now - start_time}s" # 個別時間測定
-        return
+        next
       end
   
       scenaio = Crawler::Amazon::Scenario.new(
@@ -38,13 +39,14 @@ class CheckAmazonScript
   
     target_rows.each do |row|
       p "ツイートします"
-      # p row["post_contents"]
-      # twitter_api.tweet(row["post_contents"])
+      p post_contents = row["post_contents"] + "\n(#{Time.now.to_s})"
+      twitter_api.tweet(post_contents)
+
       dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
-      # sleep(rand(20..30))
+      sleep(rand(10..30))
     end
   
-    p "全体処理概要 #{Time.now - overall_start_time}" # 全体時間測定
+    p "全体処理概要 #{Time.now - overall_start_time}s" # 全体時間測定
   rescue => e
     ErrorUtility.log(e)
   end
