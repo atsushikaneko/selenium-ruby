@@ -56,7 +56,7 @@ class CheckAmazonScript
 
     last_tweeted_at = Time.parse(row["last_tweeted_at"])
     # tweet_intervalがnilの場合はデフォルトの30分、tweet_intervalが存在する場合は指定の値
-    tweet_interval = row["tweet_interval"].nil? ? DEFAULT_TWEET_INTERVAL : row["tweet_interval"].to_i
+    tweet_interval = row["tweet_interval"].nil? ? DEFAULT_TWEET_INTERVAL : (row["tweet_interval"].to_i * 60)
     Time.now > last_tweeted_at + tweet_interval
   end
 
