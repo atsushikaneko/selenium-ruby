@@ -8,13 +8,13 @@ module Crawler
       NORMAL_ORDER_RADIO_BUTTON_XPATH = '//*[@id="newAccordionRow"]/div/div[1]/a/i'
       LABEL_XPATH = '//*[@id="newAccordionCaption_feature_div"]/div/span'
     
-      def initialize(start_url:, desired_arrival_amount:, post_content:)
+      def initialize(start_url:, monitoring_target:, desired_arrival_amount:)
         @start_url = start_url
+        @monitoring_target = monitoring_target
         @desired_arrival_amount = desired_arrival_amount
-        @post_content = post_content
       end
     
-      attr_reader :start_url, :desired_arrival_amount, :post_content
+      attr_reader :start_url, :monitoring_target, :desired_arrival_amount
     
       def item_in_stock_by_target_sellers?
         puts "start_url: #{start_url}"
@@ -31,15 +31,16 @@ module Crawler
         
         # カートセラーがAmazonの場合はtrueを返す
         # カートセラーがAmazon以外の場合は、指定価格以下ならtrueを返す
-        if cart_seller_name == "Amazon.co.jp"
+        if monitoring_target == "Amazon" && cart_seller_name == "Amazon.co.jp"
           puts '販売元はAmazon.co.jpです'
           return true
-        else
+        elsif monitoring_target == "出店業者"
           puts '販売元はAmazon.co.jpではありません'
           cart_price = driver.find_element(:xpath, CART_PRICE_XPATH).text.delete("￥").to_i
           return true if cart_price <= desired_arrival_amount
         end
 
+        false
       ensure
         driver.quit
       end

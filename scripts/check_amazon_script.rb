@@ -21,11 +21,17 @@ class CheckAmazonScript
     target_rows = []
     Parallel.each(rows, in_threads: 5) do |row|
       start_time = Time.now # 個別時間測定
+
+      unless tweetable?(row)
+        p "ツイートインターバル内なのでツイートできません"
+        p "個別処理概要 #{Time.now - start_time}s" # 個別時間測定
+        return
+      end
   
       scenaio = Crawler::Amazon::Scenario.new(
         start_url: row["start_url"],
+        monitoring_target: row["monitoring_target"],
         desired_arrival_amount: row["desired_arrival_amount"].to_i,
-        post_content: row["post_contents"]
       )
       target_rows << row if scenaio.item_in_stock_by_target_sellers?
   
@@ -33,13 +39,11 @@ class CheckAmazonScript
     end
   
     target_rows.each do |row|
-      if tweetable?(row)
-        p "ツイートします"
-        # p row["post_contents"]
-        # twitter_api.tweet(row["post_contents"])
-        dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
-        # sleep(rand(20..30))
-      end
+      p "ツイートします"
+      # p row["post_contents"]
+      # twitter_api.tweet(row["post_contents"])
+      dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
+      # sleep(rand(20..30))
     end
   
     p "全体処理概要 #{Time.now - overall_start_time}" # 全体時間測定
