@@ -1,4 +1,3 @@
-# 執筆時点での最新
 FROM ruby:2.7.6
 
 # Chrome をインストール
@@ -14,9 +13,8 @@ RUN CHROMEDRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RE
   && unzip /tmp/chromedriver_linux64.zip \
   && mv chromedriver /usr/local/bin/
 
-## 下記以降はよしなに
 
-# スクレイピング用の Ruby ソースコードをコピー(任意)
+# スクレイピング用の Ruby ソースコードをコピー
 # Gemfile では `selenium-webdriver` をインストールしている。
 WORKDIR /app
 COPY Gemfile /app
