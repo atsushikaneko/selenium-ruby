@@ -12,7 +12,9 @@ class CheckAmazonScript
     p "実行開始"
     overall_start_time = Time.now # 全体時間測定
 
+    # 監視対象: in_monitoringカラムがtrue & ツイートインターバル内でない商品
     p "監視対象 #{target_rows.count}件"
+
     # rowsを絞る
     p target_rows = target_rows[7..9]
     # p target_rows = [target_rows[7]]
@@ -20,12 +22,6 @@ class CheckAmazonScript
     target_rows = []
     Parallel.each(target_rows, in_threads: 5) do |row|
       start_time = Time.now # 個別時間測定
-
-      unless tweetable?(row)
-        p "ツイートインターバル内なのでツイートできません"
-        p "個別処理概要 #{Time.now - start_time}s" # 個別時間測定
-        next
-      end
   
       scenaio = Crawler::Amazon::Scenario.new(
         start_url: row["start_url"],
@@ -34,7 +30,7 @@ class CheckAmazonScript
       )
       target_rows << row if scenaio.item_in_stock_by_target_sellers?
   
-      p "個別処理概要 #{Time.now - start_time}s" # 個別時間測定
+      p "個別処理時間 #{Time.now - start_time}s" # 個別時間測定
     end
   
     target_rows.each do |row|
@@ -46,7 +42,7 @@ class CheckAmazonScript
       sleep(rand(10..30))
     end
   
-    p "全体処理概要 #{Time.now - overall_start_time}s" # 全体時間測定
+    p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
   rescue => e
     ErrorUtility.log(e)
   end
@@ -55,7 +51,10 @@ class CheckAmazonScript
 
   # 監視対象の行
   def target_rows
-    @target_rows ||= amazon_item_list.all.select{|row| row["is_monitoring"] == "true" }
+    @target_rows ||= begin
+      monitoring_rows = amazon_item_list.all.select{|row| row["is_monitoring"] == "true" }
+      monitoring_rows.select{|row| tweetable?(row) }
+    end
   end
 
   def amazon_item_list
