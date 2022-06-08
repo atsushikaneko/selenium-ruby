@@ -12,13 +12,13 @@ class CheckAmazonScript
     p "実行開始"
     overall_start_time = Time.now # 全体時間測定
 
-    rows = dynamo_db.all
+    p "監視対象 #{target_rows.count}件"
     # rowsを絞る
-    p rows = rows[7..9]
-    # p rows = [rows[7]]
+    p target_rows = target_rows[7..9]
+    # p target_rows = [target_rows[7]]
 
     target_rows = []
-    Parallel.each(rows, in_threads: 5) do |row|
+    Parallel.each(target_rows, in_threads: 5) do |row|
       start_time = Time.now # 個別時間測定
 
       unless tweetable?(row)
@@ -39,10 +39,10 @@ class CheckAmazonScript
   
     target_rows.each do |row|
       p "ツイートします"
-      p post_contents = row["post_contents"] + "\n(#{Time.now.to_s})"
+      p post_contents = row["post_contents"] + "\n\n(#{Time.now.to_s})"
       twitter_api.tweet(post_contents)
 
-      dynamo_db.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
+      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
       sleep(rand(10..30))
     end
   
@@ -53,6 +53,15 @@ class CheckAmazonScript
 
   private
 
+  # 監視対象の行
+  def target_rows
+    @target_rows ||= amazon_item_list.all.select{|row| row["is_monitoring"] == "true" }
+  end
+
+  def amazon_item_list
+    @amazon_item_list ||= DynamoDb.new(TABLE_NAME)
+  end
+
   def tweetable?(row)
     return true if row["last_tweeted_at"].nil? # last_tweeted_atがnilの場合はツイート可能
 
@@ -60,10 +69,6 @@ class CheckAmazonScript
     # tweet_intervalがnilの場合はデフォルトの30分、tweet_intervalが存在する場合は指定の値
     tweet_interval = row["tweet_interval"].nil? ? DEFAULT_TWEET_INTERVAL : (row["tweet_interval"].to_i * 60)
     Time.now > last_tweeted_at + tweet_interval
-  end
-
-  def dynamo_db
-    @dynamo_db ||= DynamoDb.new(TABLE_NAME)
   end
 
   def twitter_api
