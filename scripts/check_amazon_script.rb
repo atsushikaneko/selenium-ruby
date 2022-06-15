@@ -6,21 +6,22 @@ require './error_utility'
 
 class CheckAmazonScript
   TABLE_NAME = 'amazon_item_list'.freeze
-  DEFAULT_TWEET_INTERVAL = 1800.freeze # 1800秒(30分)
+  DEFAULT_TWEET_INTERVAL_SECONDS = 1800.freeze # 1800秒(30分)
 
   def execute
     p "実行開始"
+    logger.info "実行開始: #{Time.now}"
     overall_start_time = Time.now # 全体時間測定
 
     # クロール対象商品: in_monitoringカラムがtrue & ツイートインターバル時間内でない商品
-    p "クロール対象商品 #{crawl_target_rows.count}件"
+    p "クロール対象商品 #{target_rows_for_crawl.count}件"
 
     # rowsを絞る
-    p crawl_target_rows = crawl_target_rows[7..9]
+    # p target_rows_for_crawl = target_rows_for_crawl[7..9]
     # p target_rows = [target_rows[7]]
 
-    tweet_target_rows = []
-    Parallel.each(crawl_target_rows, in_threads: 5) do |row|
+    target_rows_for_tweet = []
+    Parallel.each(target_rows_for_crawl, in_threads: 5) do |row|
       start_time = Time.now # 個別時間測定
   
       scenaio = Crawler::Amazon::Scenario.new(
@@ -28,12 +29,12 @@ class CheckAmazonScript
         monitoring_target: row["monitoring_target"],
         desired_arrival_amount: row["desired_arrival_amount"].to_i,
       )
-      tweet_target_rows << row if scenaio.item_in_stock_by_target_sellers?
+      target_rows_for_tweet << row if scenaio.item_in_stock_by_target_sellers?
   
       p "個別処理時間 #{Time.now - start_time}s" # 個別時間測定
     end
   
-    tweet_target_rows.each do |row|
+    target_rows_for_tweet.each do |row|
       p "ツイートします"
       p post_contents = row["post_contents"] + "\n\n(#{Time.now.to_s})"
       twitter_api.tweet(post_contents)
@@ -49,11 +50,11 @@ class CheckAmazonScript
 
   private
 
-  # 監視対象の行
-  def crawl_target_rows
+  # クロール対象商品: in_monitoringカラムがtrue & ツイートインターバル時間内でない商品
+  def target_rows_for_crawl
     @crawl_target_rows ||= begin
       monitoring_rows = amazon_item_list.all.select{ |row| row["is_monitoring"] == "true" }
-      monitoring_rows.select{ |row| tweetable?(row) }
+      monitoring_rows.select{ |row| outside_tweet_interval?(row) }
     end
   end
 
@@ -61,13 +62,13 @@ class CheckAmazonScript
     @amazon_item_list ||= DynamoDb.new(TABLE_NAME)
   end
 
-  def tweetable?(row)
+  def outside_tweet_interval?(row)
     return true if row["last_tweeted_at"].nil? # last_tweeted_atがnilの場合はツイート可能
 
     last_tweeted_at = Time.parse(row["last_tweeted_at"])
     # tweet_intervalがnilの場合はデフォルトの30分、tweet_intervalが存在する場合は指定の値
-    tweet_interval = row["tweet_interval"].nil? ? DEFAULT_TWEET_INTERVAL : (row["tweet_interval"].to_i * 60)
-    Time.now > last_tweeted_at + tweet_interval
+    tweet_interval_seconds = row["tweet_interval_minutes"].nil? ? DEFAULT_TWEET_INTERVAL_SECONDS : (row["tweet_interval_minutes"].to_i * 60)
+    Time.now > last_tweeted_at + tweet_interval_seconds
   end
 
   def twitter_api

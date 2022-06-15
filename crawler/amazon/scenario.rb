@@ -21,7 +21,7 @@ module Crawler
         driver.navigate.to start_url
     
         # 定期便が存在する商品の場合、通常の注文を選択する
-        click_normal_order_button
+        click_normal_order_button_if_exists
         # クリックしたあと少し待つ
         sleep(1)
     
@@ -29,8 +29,8 @@ module Crawler
         return false unless cart_seller_name = driver.find_elements(:xpath, CART_SELLER_XPATH)[0]&.text
         puts "cart_seller_name: #{cart_seller_name}"
         
-        # カートセラーがAmazonの場合はtrueを返す
-        # カートセラーがAmazon以外の場合は、指定価格以下ならtrueを返す
+        # 監視対象がAmazonかつ、カートセラーがAmazonの場合はtrueを返す
+        # 監視対象が出店業者かつ、カートセラーがAmazon以外の場合は、指定価格以下ならtrueを返す
         if monitoring_target == "Amazon" && cart_seller_name == "Amazon.co.jp"
           puts '販売元はAmazon.co.jpです'
           return true
@@ -51,15 +51,15 @@ module Crawler
         @driver ||= begin
           options = Selenium::WebDriver::Chrome::Options.new
           options.add_argument('--headless') # ヘッドレスモードでの実行の場合コメントイン
-          # options.add_argument('--no-sandbox')
-          # options.add_argument('--disable-dev-shm-usage')
+          options.add_argument('--no-sandbox') # コンテナ内で実行する場合はコメントイン
+          options.add_argument('--disable-dev-shm-usage') # コンテナ内で実行する場合はコメントイン
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 2
           end
         end
       end
     
-      def click_normal_order_button
+      def click_normal_order_button_if_exists
         radio_button = driver.find_elements(:xpath, NORMAL_ORDER_RADIO_BUTTON_XPATH)[0]
         radio_button.click if radio_button
       end
