@@ -40,7 +40,6 @@ class CheckAmazonScript
       twitter_api.tweet(post_contents)
 
       amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
-      sleep(rand(10..30))
     end
   
     p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
