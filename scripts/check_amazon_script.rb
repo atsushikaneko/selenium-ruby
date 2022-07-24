@@ -75,6 +75,7 @@ class CheckAmazonScript
   end
 
   def now
+    # TODO: コンテナで実行時にUTCになるのを、32400秒(9時間)足して強引に日本時間に変換している。要修正
     (Time.now + 32400).strftime("%Y-%m-%d %H:%M:%S")
   end
 
