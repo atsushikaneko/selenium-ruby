@@ -36,10 +36,10 @@ class CheckAmazonScript
   
     target_rows_for_tweet.each do |row|
       p "ツイートします"
-      p post_contents = row["post_contents"] + "\n\n(#{Time.now.to_s})"
+      p post_contents = row["post_contents"] + "\n\n" + now
       twitter_api.tweet(post_contents)
 
-      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
+      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.in_time_zone('Tokyo').to_s)
     end
   
     p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
@@ -72,6 +72,10 @@ class CheckAmazonScript
 
   def twitter_api
     @twitter_api ||= TwitterApi.new
+  end
+
+  def now
+    (Time.now + 32400).strftime("%Y-%m-%d %H:%M:%S")
   end
 
   def logger
