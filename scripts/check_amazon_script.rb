@@ -9,12 +9,11 @@ class CheckAmazonScript
   DEFAULT_TWEET_INTERVAL_SECONDS = 1800.freeze # 1800秒(30分)
 
   def execute
-    p "実行開始"
-    logger.info "実行開始: #{Time.now}"
+    logger.info p "実行開始: #{Time.now}"
     overall_start_time = Time.now # 全体時間測定
 
     # クロール対象商品: in_monitoringカラムがtrue & ツイートインターバル時間内でない商品
-    p "クロール対象商品 #{target_rows_for_crawl.count}件"
+    logger.info p "クロール対象商品 #{target_rows_for_crawl.count}件"
 
     # rowsを絞る
     # p target_rows_for_crawl = target_rows_for_crawl[7..9]
@@ -31,19 +30,19 @@ class CheckAmazonScript
       )
       target_rows_for_tweet << row if scenaio.item_in_stock_by_target_sellers?
   
-      p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
+      logger.info p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
     end
   
     target_rows_for_tweet.each do |row|
-      p "ツイート対象商品 #{target_rows_for_tweet.count}件"
-      p "ツイートします"
-      p post_contents = row["post_contents"] + "\n\n" + now
+      logger.info p "ツイート対象商品 #{target_rows_for_tweet.count}件"
+      logger.info p "ツイートします"
+      logger.info p post_contents = row["post_contents"] + "\n\n" + now
       twitter_api.tweet(post_contents)
 
       amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.in_time_zone('Tokyo').to_s)
     end
   
-    p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
+    logger.info p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
   rescue => e
     ErrorUtility.log(e)
   end

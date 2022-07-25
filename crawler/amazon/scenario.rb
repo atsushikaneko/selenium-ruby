@@ -17,7 +17,7 @@ module Crawler
       attr_reader :start_url, :monitoring_target, :desired_arrival_amount
     
       def item_in_stock_by_target_sellers?
-        puts "start_url: #{start_url}"
+        logger.info p "start_url: #{start_url}"
         driver.navigate.to start_url
     
         # 定期便が存在する商品の場合、通常の注文を選択する
@@ -27,15 +27,15 @@ module Crawler
     
         # カートセラーが取得できない場合はfalseを返す
         return false unless cart_seller_name = driver.find_elements(:xpath, CART_SELLER_XPATH)[0]&.text
-        puts "cart_seller_name: #{cart_seller_name}"
+        logger.info p "cart_seller_name: #{cart_seller_name}"
         
         # 監視対象がAmazonかつ、カートセラーがAmazonの場合はtrueを返す
         # 監視対象が出店業者かつ、カートセラーがAmazon以外の場合は、指定価格以下ならtrueを返す
         if monitoring_target == "Amazon" && cart_seller_name == "Amazon.co.jp"
-          puts '販売元はAmazon.co.jpです'
+          logger.info p '販売元はAmazon.co.jpです'
           return true
         elsif monitoring_target == "出店業者"
-          puts '販売元はAmazon.co.jpではありません'
+          logger.info p '販売元はAmazon.co.jpではありません'
           cart_price = driver.find_element(:xpath, CART_PRICE_XPATH).text.delete("￥").to_i
           return true if cart_price <= desired_arrival_amount
         end
@@ -62,6 +62,10 @@ module Crawler
       def click_normal_order_button_if_exists
         radio_button = driver.find_elements(:xpath, NORMAL_ORDER_RADIO_BUTTON_XPATH)[0]
         radio_button.click if radio_button
+      end
+
+      def logger
+        @logger ||= Logger.new('./logfile.log')
       end
     end
   end
