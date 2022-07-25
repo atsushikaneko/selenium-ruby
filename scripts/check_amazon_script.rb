@@ -33,8 +33,8 @@ class CheckAmazonScript
       logger.info p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
     end
   
+    logger.info p "ツイート対象商品 #{target_rows_for_tweet.count}件"
     target_rows_for_tweet.each do |row|
-      logger.info p "ツイート対象商品 #{target_rows_for_tweet.count}件"
       logger.info p "ツイートします"
       logger.info p post_contents = row["post_contents"] + "\n\n" + now
       twitter_api.tweet(post_contents)
