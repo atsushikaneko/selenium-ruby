@@ -31,10 +31,11 @@ class CheckAmazonScript
       )
       target_rows_for_tweet << row if scenaio.item_in_stock_by_target_sellers?
   
-      p "個別処理時間 #{Time.now - start_time}s" # 個別時間測定
+      p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
     end
   
     target_rows_for_tweet.each do |row|
+      p "ツイート対象商品 #{target_rows_for_tweet.count}件"
       p "ツイートします"
       p post_contents = row["post_contents"] + "\n\n" + now
       twitter_api.tweet(post_contents)
