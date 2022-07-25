@@ -59,7 +59,7 @@ module Crawler
           options.add_argument('--headless') # ヘッドレスモードでの実行の場合コメントイン
           options.add_argument('--no-sandbox') # コンテナ内で実行する場合はコメントイン
           options.add_argument('--disable-dev-shm-usage') # コンテナ内で実行する場合はコメントイン
-          options.add_argument('--user-agent=' + USER_AGENT_LIST.sample) # コンテナ内で実行する場合はコメントイン
+          options.add_argument('--user-agent=' + USER_AGENT_LIST.sample)
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 2
           end
