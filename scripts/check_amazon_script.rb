@@ -39,7 +39,7 @@ class CheckAmazonScript
       logger.info p post_contents = row["post_contents"] + "\n\n" + now
       twitter_api.tweet(post_contents)
 
-      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.in_time_zone('Tokyo').to_s)
+      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now)
     end
   
     logger.info p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
