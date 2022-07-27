@@ -28,18 +28,14 @@ class CheckAmazonScript
         monitoring_target: row["monitoring_target"],
         desired_arrival_amount: row["desired_arrival_amount"].to_i,
       )
-      target_rows_for_tweet << row if scenaio.item_in_stock_by_target_sellers?
+
+      if scenaio.item_in_stock_by_target_sellers?
+        logger.info p "ツイートします"
+        logger.info p post_contents = row["post_contents"] + "\n\n" + now
+        twitter_api.tweet(post_contents)
+      end
   
       logger.info p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
-    end
-  
-    logger.info p "ツイート対象商品 #{target_rows_for_tweet.count}件"
-    target_rows_for_tweet.each do |row|
-      logger.info p "ツイートします"
-      logger.info p post_contents = row["post_contents"] + "\n\n" + now
-      twitter_api.tweet(post_contents)
-
-      amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: Time.now.to_s)
     end
   
     logger.info p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
