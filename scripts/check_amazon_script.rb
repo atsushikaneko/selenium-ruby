@@ -29,18 +29,20 @@ class CheckAmazonScript
         desired_arrival_amount: row["desired_arrival_amount"].to_i,
       )
 
-      if scenaio.item_in_stock_by_target_sellers?
-        logger.info p "ツイートします"
-        logger.info p post_contents = row["post_contents"] + "\n\n" + current_time.strftime("%Y-%m-%d %H:%M:%S")
-        twitter_api.tweet(post_contents)
+      begin 
+        if scenaio.item_in_stock_by_target_sellers?
+          logger.info p "ツイートします"
+          logger.info p post_contents = row["post_contents"] + "\n\n" + current_time.strftime("%Y-%m-%d %H:%M:%S")
+          twitter_api.tweet(post_contents)
+        end
+      rescue => e
+        ErrorUtility.log(e)
       end
   
       logger.info p "個別処理時間(#{row["asin"]}) #{current_time - start_time}s" # 個別時間測定
     end
   
     logger.info p "全体処理概時間 #{current_time - overall_start_time}s" # 全体時間測定
-  rescue => e
-    ErrorUtility.log(e)
   end
 
   private
