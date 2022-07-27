@@ -19,7 +19,6 @@ class CheckAmazonScript
     # p target_rows_for_crawl = target_rows_for_crawl[7..9]
     # p target_rows = [target_rows[7]]
 
-    target_rows_for_tweet = []
     Parallel.each(target_rows_for_crawl, in_threads: 5) do |row|
       start_time = current_time # 個別時間測定
   
