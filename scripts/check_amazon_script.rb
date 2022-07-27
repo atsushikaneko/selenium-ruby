@@ -9,8 +9,8 @@ class CheckAmazonScript
   DEFAULT_TWEET_INTERVAL_SECONDS = 1800.freeze # 1800秒(30分)
 
   def execute
-    logger.info p "実行開始: #{Time.now}"
-    overall_start_time = Time.now # 全体時間測定
+    overall_start_time = current_time # 全体時間測定
+    logger.info p "実行開始: #{overall_start_time}"
 
     # クロール対象商品: in_monitoringカラムがtrue & ツイートインターバル時間内でない商品
     logger.info p "クロール対象商品 #{target_rows_for_crawl.count}件"
@@ -21,7 +21,7 @@ class CheckAmazonScript
 
     target_rows_for_tweet = []
     Parallel.each(target_rows_for_crawl, in_threads: 5) do |row|
-      start_time = Time.now # 個別時間測定
+      start_time = current_time # 個別時間測定
   
       scenaio = Crawler::Amazon::Scenario.new(
         start_url: row["start_url"],
@@ -31,14 +31,14 @@ class CheckAmazonScript
 
       if scenaio.item_in_stock_by_target_sellers?
         logger.info p "ツイートします"
-        logger.info p post_contents = row["post_contents"] + "\n\n" + now
+        logger.info p post_contents = row["post_contents"] + "\n\n" + current_time.strftime("%Y-%m-%d %H:%M:%S")
         twitter_api.tweet(post_contents)
       end
   
-      logger.info p "個別処理時間(#{row["asin"]}) #{Time.now - start_time}s" # 個別時間測定
+      logger.info p "個別処理時間(#{row["asin"]}) #{current_time - start_time}s" # 個別時間測定
     end
   
-    logger.info p "全体処理概時間 #{Time.now - overall_start_time}s" # 全体時間測定
+    logger.info p "全体処理概時間 #{current_time - overall_start_time}s" # 全体時間測定
   rescue => e
     ErrorUtility.log(e)
   end
@@ -63,16 +63,16 @@ class CheckAmazonScript
     last_tweeted_at = Time.parse(row["last_tweeted_at"])
     # tweet_intervalがnilの場合はデフォルトの30分、tweet_intervalが存在する場合は指定の値
     tweet_interval_seconds = row["tweet_interval_minutes"].nil? ? DEFAULT_TWEET_INTERVAL_SECONDS : (row["tweet_interval_minutes"].to_i * 60)
-    Time.now > last_tweeted_at + tweet_interval_seconds
+    current_time > last_tweeted_at + tweet_interval_seconds
   end
 
   def twitter_api
     @twitter_api ||= TwitterApi.new
   end
 
-  def now
+  def current_time
     # TODO: コンテナで実行時にUTCになるのを、32400秒(9時間)足して強引に日本時間に変換している。要修正
-    (Time.now + 32400).strftime("%Y-%m-%d %H:%M:%S")
+    Time.now + 32400
   end
 
   def logger
