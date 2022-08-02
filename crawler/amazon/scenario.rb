@@ -1,4 +1,5 @@
 require 'selenium-webdriver'
+require './constants/user_agent_list'
 
 module Crawler
   module Amazon
@@ -7,12 +8,6 @@ module Crawler
       CART_PRICE_XPATH = '//*[@id="corePrice_desktop"]/div/table/tbody/tr[2]/td[2]/span[1]/span[1] | //*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[1]'
       NORMAL_ORDER_RADIO_BUTTON_XPATH = '//*[@id="newAccordionRow"]/div/div[1]/a/i'
       LABEL_XPATH = '//*[@id="newAccordionCaption_feature_div"]/div/span'
-
-      USER_AGENT_LIST = [
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15',
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15',
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
-      ]
     
       def initialize(start_url:, monitoring_target:, desired_arrival_amount:)
         @start_url = start_url
