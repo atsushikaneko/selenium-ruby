@@ -8,6 +8,9 @@ module Crawler
       CART_PRICE_XPATH = '//*[@id="corePrice_desktop"]/div/table/tbody/tr[2]/td[2]/span[1]/span[1] | //*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span/span[1]'
       NORMAL_ORDER_RADIO_BUTTON_XPATH = '//*[@id="newAccordionRow"]/div/div[1]/a/i'
       LABEL_XPATH = '//*[@id="newAccordionCaption_feature_div"]/div/span'
+      OTHER_SELLERS_LIST_LINK_XPATH = '//*[@id="olpLinkWidget_feature_div"]/div[2]/span/a/div/div/span[1]'
+      OTHER_SELLER_NAMES_XPATH = '//*[@id="aod-offer-soldBy"]/div/div/div[2]/a'
+  
     
       def initialize(start_url:, monitoring_target:, desired_arrival_amount:)
         @start_url = start_url
@@ -35,6 +38,12 @@ module Crawler
         if monitoring_target == "Amazon" && cart_seller_name == "Amazon.co.jp"
           logger.info p '販売元はAmazon.co.jpです'
           return true
+        elsif monitoring_target == "Amazon"
+          driver.find_elements(:xpath, OTHER_SELLERS_LIST_LINK_XPATH)[0]&.click
+          sleep(1)
+          serller_names = driver.find_elements(:xpath, OTHER_SELLER_NAMES_XPATH).map{ |e| e&.text }
+          return serller_names.include?("Amazon.co.jp")
+
         elsif monitoring_target == "出店業者"
           logger.info p '販売元はAmazon.co.jpではありません'
           cart_price = driver.find_element(:xpath, CART_PRICE_XPATH).text.delete("￥").to_i
