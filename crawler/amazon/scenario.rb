@@ -70,7 +70,7 @@ module Crawler
           options.add_argument('--no-sandbox') # コンテナ内で実行する場合はコメントイン
           options.add_argument('--disable-dev-shm-usage') # コンテナ内で実行する場合はコメントイン
           options.add_argument("--user-agent=#{USER_AGENT_LIST.sample}")
-          # options.add_argument("--proxy-server=http://#{PROXY_LIST.sample}")
+          options.add_argument("--proxy-server=http://#{PROXY_LIST.sample}")
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 2
           end
@@ -90,7 +90,7 @@ module Crawler
         radio_button.click if radio_button
       end
 
-      def out_of_stock_temporarily?
+      def out_of_stock_temporarily?(start_url)
         text = driver.find_elements(:xpath, '//*[@id="availability"]/span[1]')[0]&.text
         text.include?("一時的に在庫切れ")
       end
