@@ -47,11 +47,12 @@ class CheckAmazonScript
 
   private
 
-  # クロール対象商品: in_monitoringカラムがtrue & ツイートインターバル時間内でない商品
+  # クロール対象商品: in_monitoringカラムがtrue & start_urlがnanでない & ツイートインターバル時間内でない商品
   def target_rows_for_crawl
     @crawl_target_rows ||= begin
-      monitoring_rows = amazon_item_list.all.select{ |row| row["is_monitoring"] == "true" }
-      monitoring_rows.select{ |row| outside_tweet_interval?(row) }
+      tmp_rows = amazon_item_list.all.select{ |row| row["is_monitoring"] == "true" }
+      tmp_rows = tmp_rows.select{ |row| row["start_url"] != "nan" }
+      tmp_rows.select{ |row| outside_tweet_interval?(row) }
     end
   end
 
