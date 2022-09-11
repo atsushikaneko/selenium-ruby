@@ -3,6 +3,7 @@ require 'parallel'
 require './twitter_api'
 require './crawler/amazon/scenario'
 require './error_utility'
+require 'securerandom'
 
 class CheckAmazonScript
   TABLE_NAME = 'amazon_item_list'.freeze

@@ -23,9 +23,12 @@ module Crawler
     
       def item_in_stock_by_target_sellers?
         logger.info p "start_url: #{start_url}"
-        # log_current_ip
+        log_current_ip
         
         driver.navigate.to start_url
+
+        # 一時的に在庫切れの場合はfalseを返す
+        retuen false if out_of_stock_temporarily?
     
         # 定期便が存在する商品の場合、通常の注文を選択する
         click_normal_order_button_if_exists
@@ -79,11 +82,17 @@ module Crawler
         ip = driver.find_elements(:xpath, '//*[@id="tmContHeadStr"]/div/div[1]/div[3]/div[1]')[0]&.text
         sleep(1)
         logger.info p "ip: #{ip}"
+        raise "proxyが使えません" if ip.nil?
       end
     
       def click_normal_order_button_if_exists
         radio_button = driver.find_elements(:xpath, NORMAL_ORDER_RADIO_BUTTON_XPATH)[0]
         radio_button.click if radio_button
+      end
+
+      def out_of_stock_temporarily?
+        text = driver.find_elements(:xpath, '//*[@id="availability"]/span[1]')[0]&.text
+        text.includes?("一時的に在庫切れ")
       end
 
       def logger
