@@ -28,7 +28,7 @@ module Crawler
         driver.navigate.to start_url
 
         # 一時的に在庫切れの場合はfalseを返す
-        retuen false if out_of_stock_temporarily?
+        # retuen false if out_of_stock_temporarily?
     
         # 定期便が存在する商品の場合、通常の注文を選択する
         click_normal_order_button_if_exists
@@ -82,7 +82,7 @@ module Crawler
           options.add_argument('--no-sandbox') # コンテナ内で実行する場合はコメントイン
           options.add_argument('--disable-dev-shm-usage') # コンテナ内で実行する場合はコメントイン
           options.add_argument("--user-agent=#{USER_AGENT_LIST.sample}")
-          options.add_argument("--proxy-server=http://#{PROXY_LIST.sample}")
+          # options.add_argument("--proxy-server=http://#{PROXY_LIST.sample}")
           Selenium::WebDriver.for(:chrome , options: options).tap do |driver|
             driver.manage.timeouts.implicit_wait = 2
           end
@@ -104,7 +104,9 @@ module Crawler
 
       def out_of_stock_temporarily?
         text = driver.find_elements(:xpath, '//*[@id="availability"]/span[1]')[0]&.text
-        text.include?("一時的に在庫切れ")
+        return text.include?("一時的に在庫切れ") if text
+
+        false
       end
 
       def logger
