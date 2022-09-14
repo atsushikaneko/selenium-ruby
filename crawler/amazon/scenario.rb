@@ -20,7 +20,7 @@ module Crawler
       end
     
       attr_reader :start_url, :monitoring_target, :desired_arrival_amount
-    
+
       def item_in_stock_by_target_sellers?
         logger.info p "start_url: #{start_url}"
         # log_current_ip
@@ -60,7 +60,19 @@ module Crawler
       ensure
         driver.quit
       end
-    
+
+      def scan_proxies
+        arr = []
+        PROXY_LIST.each do |proxy|
+          driver.navigate.to "https://www.cman.jp/network/support/go_access.cgi"
+          sleep(10)
+          ip = driver.find_elements(:xpath, '//*[@id="tmContHeadStr"]/div/div[1]/div[3]/div[1]')[0]&.text
+          logger.info p ip
+          arr << ip if ip
+        end
+        logger.info p arr
+      end
+
       private
 
       def driver
@@ -90,7 +102,7 @@ module Crawler
         radio_button.click if radio_button
       end
 
-      def out_of_stock_temporarily?(start_url)
+      def out_of_stock_temporarily?
         text = driver.find_elements(:xpath, '//*[@id="availability"]/span[1]')[0]&.text
         text.include?("一時的に在庫切れ")
       end
