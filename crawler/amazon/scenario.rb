@@ -23,7 +23,7 @@ module Crawler
 
       def item_in_stock_by_target_sellers?
         logger.info p "start_url: #{start_url}"
-        # log_current_ip
+        log_current_ip
         
         driver.navigate.to start_url
 

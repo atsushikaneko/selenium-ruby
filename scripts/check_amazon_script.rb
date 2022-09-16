@@ -32,9 +32,9 @@ class CheckAmazonScript
       begin 
         if scenaio.item_in_stock_by_target_sellers?
           logger.info p "ツイートします(#{row["asin"]})"
-          logger.info p post_contents = row["post_contents"] + "\n\n" + current_time.strftime("%Y-%m-%d %H:%M:%S")
-          twitter_api.tweet(post_contents)
-          amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: current_time.to_s)
+          # logger.info p post_contents = row["post_contents"] + "\n\n" + current_time.strftime("%Y-%m-%d %H:%M:%S")
+          # twitter_api.tweet(post_contents)
+          # amazon_item_list.update(id: row["id"], column: "last_tweeted_at", value: current_time.to_s)
         end
       rescue => e
         ErrorUtility.log(e)
