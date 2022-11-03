@@ -84,4 +84,9 @@ class CheckAmazonScript
   end
 end
 
-CheckAmazonScript.new.execute if $PROGRAM_NAME == __FILE__
+count = ARGV[0].to_i
+if count.zero?
+  loop { CheckAmazonScript.new.execute }
+else
+  count.times { CheckAmazonScript.new.execute }
+end
